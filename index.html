@@ -10,17 +10,17 @@
 </head>
 
 <body>
-    <main>
-        <form class="promo-form">
+    <main class="background-color">
+        <form class="promo-form" id="main-form">
             <div class="form-division">
                 <div class="sagement">
                     <div class="input-group">
-                        <label for="promo">Promo Code</label>
-                        <input type="text" name="promo" placeholder="Enter Promo...">
+                        <label for="promo" class="text-padding">Promo Code</label>
+                        <input type="text" name="promo" placeholder="Enter Promo..." class="text-field" id="promo-code">
                     </div>
                     <div class="input-group">
-                        <label for="city">City</label>
-                        <select name="city">
+                        <label for="city" class="text-padding">City</label>
+                        <select name="city" class="text-field" id="city">
                             <option value="">None</option>
                             <option value="Dhaka">Dhaka</option>
                             <option value="Rajshahi">Rajshahi</option>
@@ -28,118 +28,122 @@
                         </select>
                     </div>
                     <div class="input-group">
-                        <label for="restaurant-id">Restaurant ID</label>
-                        <input type="text" name="restaurant-id" placeholder="Enter Restaurant ID...">
+                        <label for="restaurant-id" class="text-padding">Restaurant ID</label>
+                        <input type="text" name="restaurant-id" placeholder="Enter Restaurant ID..." class="text-field" id="restaurant-id">
                     </div>
-                    <div>
-                        <label for="restaurant-group">Restaurant Group</label>
-                        <input type="text" name="restaurant-group" placeholder="Type to Search">
+                    <div class="input-group">
+                        <label for="restaurant-group" class="text-padding">Restaurant Group</label>
+                        <input type="text" name="restaurant-group" placeholder="Type to Search" class="text-field" id="restaurant-group">
                     </div>
-                    <div>
-                        <label for="user-id">User ID</label>
-                        <input type="text" name="user-id" placeholder="Enter User ID...">
+                    <div class="input-group">
+                        <label for="user-id" class="text-padding">User ID</label>
+                        <input type="text" name="user-id" placeholder="Enter User ID..." class="text-field" id="user-id">
                     </div>
-                    <div>
-                        <label for="user-group">User Group</label>
-                        <input type="text" name="user-group" placeholder="Type to Search">
+                    <div class="input-group">
+                        <label for="user-group" class="text-padding">User Group</label>
+                        <input type="text" name="user-group" placeholder="Type to Search" class="text-field" id="user-group">
                     </div>
                 </div>
-                <div>
-                    <div>
-                        <label for="partner">Partner</label>
-                        <input type="text" name="partner">
+                <div class="sagement">
+                    <div class="input-group">
+                        <label for="partner" class="text-padding">Partner</label>
+                        <input type="text" name="partner" class="text-field" id="partner">
                     </div>
-                    <div>
-                        <label for="promo-type">Promo Type</label>
-                        <select name="promo-type">
+                    <div class="input-group">
+                        <label for="promo-type" class="text-padding">Promo Type</label>
+                        <select name="promo-type" class="text-field" id="promo-type">
                             <option value="delivary">Delivery</option>
                             <option value="delivary-2">Delivary 2</option>
                             <option value="delivary-3">Delivary 3</option>
                         </select>
                     </div>
-                    <div>
-                        <label for="value">Value</label>
-                        <input type="text" name="value">
+                    <div class="input-group">
+                        <label for="value" class="text-padding">Value</label>
+                        <input type="text" name="value" class="text-field" id="value">
                     </div>
-                    <div>
-                        <label for="value-type">Value Type</label>
-                        <select name="value-type">
+                    <div class="input-group">
+                        <label for="value-type" class="text-padding">Value Type</label>
+                        <select name="value-type" class="text-field"  id="value-type">
                             <option value="flat">Flat</option>
                             <option value="flat-2">Flat 2</option>
                             <option value="flat-3">Flat 3</option>
                         </select>
                     </div>
-                    <div>
-                        <label for="max-value">Max Value</label>
-                        <input type="text" name="max-value">
+                    <div class="input-group">
+                        <label for="max-value" class="text-padding">Max Value</label>
+                        <input type="text" name="max-value" class="text-field" id="max-value">
                     </div>
-                    <div>
-                        <label for="validity-period">Validity Period</label>
-                        <input type="text" name="validity-period">
+                    <div class="input-group">
+                        <label for="validity-period" class="text-padding">Validity Period</label>
+                        <input type="text" name="validity-period" class="text-field" id="validity-period">
                     </div>
                 </div>
-                <div>
-                    <div>
-                        <label for="max-use">Max Use Per Hour</label>
-                        <input type="text" name="max-use">
+                <div class="sagement">
+                    <div class="input-group">
+                        <label for="max-use" class="text-padding">Max Use Per Hour</label>
+                        <input type="text" name="max-use" class="text-field" id="max-use-per-hour">
                     </div>
-                    <div>
-                        <label for="usage-limit">Ussage Limit</label>
-                        <input type="text" name="usage-limit">
+                    <div class="input-group">
+                        <label for="usage-limit" class="text-padding">Ussage Limit</label>
+                        <input type="text" name="usage-limit" class="text-field" id="usage-limit">
                     </div>
-                    <div>
-                        <p>First Time Promo ?</p>
-                        <div>
-                            <input type="radio" name="first-time-promo" value="yes">
+                    <div class="input-group">
+                        <p  class="text-padding">First Time Promo ?</p>
+                        <div class="radio-btn">
+                            <input type="radio" name="first-time-promo" value="yes" id="first-promo">
                             <label for="yes">Yes</label>
                             <!-- </div>
                     <div> -->
-                            <input type="radio" name="first-time-promo" value="no">
+                            <input type="radio" name="first-time-promo" value="no" checked id="first-promo">
                             <label for="no">No</label>
                         </div>
                     </div>
-                    <div>
-                        <p>Is City First Time ?</p>
+                    <div class="input-group">
+                        <p class="text-padding">Is City First Time ?</p>
                         <div>
-                            <input type="radio" name="first-time-city" value="yes">
+                            <input type="radio" name="first-time-city" value="yes" id="city-first-time">
                             <label for="yes">Yes</label>
                             <!-- </div>
                         <div> -->
-                            <input type="radio" name="first-time-city" value="no">
+                            <input type="radio" name="first-time-city" value="no" checked  id="city-first-time">
                             <label for="no">No</label>
                         </div>
                     </div>
-                    <div>
-                        <label for="first-trip-count">First Trip Count</label>
-                        <input type="text" name="first-trip-count">
+                    <div class="input-group">
+                        <label for="first-trip-count" class="text-padding">First Trip Count</label>
+                        <input type="text" name="first-trip-count" class="text-field" id="first-trip">
                     </div>
                 </div>
                 <div>
-                    <div>
-                        <label for="minimum-order-value">Minimum Order Value</label>
-                        <input type="text" name="minimum-order-value">
+                    <div class="input-group">
+                        <label for="minimum-order-value" class="text-padding">Minimum Order Value</label>
+                        <input type="text" name="minimum-order-value" class="text-field" id="minimum-order-value">
                     </div>
-                    <div>
-                        <label for="start-date">Start Date</label>
-                        <input type="date" value="DD-MM-YY" name="start-date">
+                    <div class="input-group">
+                        <label for="start-date" class="text-padding">Start Date</label>
+                        <input type="date" value="DD-MM-YY" name="start-date" class="text-field" id="stat-date">
                     </div>
-                    <div>
-                        <label for="start-time">Start Time</label>
-                        <input type="time" name="start-time">
+                    <div class="input-group">
+                        <label for="start-time" class="text-padding">Start Time</label>
+                        <input type="time" name="start-time" class="text-field"  id="start-time">
                     </div>
-                    <div>
-                        <label for="end-date">End Date</label>
-                        <input type="date" value="DD-MM-YY" name="end-date">
+                    <div class="input-group">
+                        <label for="end-date" class="text-padding">End Date</label>
+                        <input type="date" value="DD-MM-YY" name="end-date" class="text-field" id="end-date">
                     </div>
-                    <div>
-                        <label for="end-time">End Time</label>
-                        <input type="time" name="end-time">
+                    <div class="input-group">
+                        <label for="end-time" class="text-padding">End Time</label>
+                        <input type="time" name="end-time" id="end-time" class="text-field">
                     </div>
                 </div>
             </div>
-            <button>Add This Promo</button>
+            <button type="submit" class="promo-button" style="color: aliceblue; float: right";>Add This Promo</button>
+            <!-- <div class="button">
+                <input type="button" value="ADD THIS PROMO" class="promo-button" style="color: aliceblue;">
+            </div> -->
         </form>
     </main>
+    <script src="main.js"></script>
 </body>
 
 </html>
